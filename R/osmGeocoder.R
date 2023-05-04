@@ -2,16 +2,14 @@
 #'
 #' Plugin for Leaflet that allows users to enter a place name or address to geolocate a map
 #'
-#' Put Open Street Map geocoding window in a Leaflet map, and jump to entered address
-#'
-#' @param map a Leaflet for R map object
-#' @param     collapsed   whether text window is collapsed or not
-#' @param     position    the position of the control
-#' @param     text        the text of the submit button
-#' @param     placeholder the text of the search input placeholder
-#' @param     bounds      a L.LatLngBounds object to limit the results to
-#' @param     email       an email string with a contact to provide to Nominatim. Useful if
-#'                        you are doing lots of queries
+#' @param map         a Leaflet for R map object
+#' @param collapsed   whether text window is collapsed or not
+#' @param position    the position of the control
+#' @param text        the text of the submit button
+#' @param placeholder the text of the search input placeholder
+#' @param bounds      a L.LatLngBounds object to limit the results to
+#' @param email       an email string with a contact to provide to Nominatim. Useful if
+#'                    you are doing lots of queries
 #'
 #' @details
 #' This plugin uses Open Street Maps' Nominatim geocoder to resolve an address and locate
@@ -20,12 +18,10 @@
 #' 'false'. The others are all text strings.
 #'
 #' Note: there are limits to the free Nominatim geocoder (e.g., no more than 1 query/sec)
-#' See \url{https://operations.osmfoundation.org/policies/nominatim/} for details
+#' See \url{https://operations.osmfoundation.org/policies/nominatim/} for details.
 #'
-#' This code is an R wrapper for JavaScript package
-#' \url{https://github.com/k4r573n/leaflet-control-osm-geocoder}, and this package includes
-#' the .js and .css files from this repository.
-#'
+#' This code is an R wrapper for JavaScript package leaflet-control-osm-geocoder, and this package
+#' includes the .js and .css files from \url{https://github.com/k4r573n/leaflet-control-osm-geocoder}.
 #'
 #' @section Author:
 #' Bradley W. Compton <bcompton@@umass.edu>
@@ -41,7 +37,7 @@
 #' addTiles() |>
 #' osmGeocoder()
 #'
-# B. Compton, 28 Apr 2023-3 May 2023
+# B. Compton, 28 Apr 2023-4 May 2023
 
 
 
@@ -51,7 +47,6 @@
 
    # Point to OSM Geocoder plugin
    osmGeocoderPlugin <- htmltools::htmlDependency('leaflet-control-osm-geocoder', '1.0.3',
-                                                  #src = c(href = 'https://rawgit.com/k4r573n/leaflet-control-osm-geocoder/master/'),
                                                   src = system.file(package = 'leaflet.lagniappe'),
                                                   script = 'Control.OSMGeocoder.js',
                                                   stylesheet = 'Control.OSMGeocoder.css'

@@ -34,19 +34,16 @@ you are doing lots of queries}
 Plugin for Leaflet that allows users to enter a place name or address to geolocate a map
 }
 \details{
-Put Open Street Map geocoding window in a Leaflet map, and jump to entered address
-
 This plugin uses Open Street Maps' Nominatim geocoder to resolve an address and locate
 the Leaflet map. There are several arguments to fine-tune the text box. These are JavaScript
 arguments, so their format is different from R. Collapsed should be a text string, 'true' or
 'false'. The others are all text strings.
 
 Note: there are limits to the free Nominatim geocoder (e.g., no more than 1 query/sec)
-See \url{https://operations.osmfoundation.org/policies/nominatim/} for details
+See \url{https://operations.osmfoundation.org/policies/nominatim/} for details.
 
-This code is an R wrapper for JavaScript package
-\url{https://github.com/k4r573n/leaflet-control-osm-geocoder}, and this package includes
-the .js and .css files from this repository.
+This code is an R wrapper for JavaScript package leaflet-control-osm-geocoder, and this package
+includes the .js and .css files from \url{https://github.com/k4r573n/leaflet-control-osm-geocoder}.
 }
 \section{Author}{
 
