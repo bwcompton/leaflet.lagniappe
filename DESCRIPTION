@@ -6,7 +6,8 @@ Description: Plugin for Leaflet that allows users to enter a place name or
     address to geolocate a map. Uses Open Street Maps' Nominatim geocoder.
 Author: Bradley W. Compton
 Maintainer: Bradley W. Compton <bcompton@umass.edu>
-URL: https://umassdsl.org
+URL: https://github.com/bwcompton/leaflet.lagniappe
+BugReports: https://github.com/bwcompton/leaflet.lagniappe/issues
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

@@ -11,7 +11,7 @@
 #' @param email       an email string with a contact to provide to Nominatim. Useful if
 #'                    you are doing lots of queries
 #'
-#' @value
+#' @return
 #' The modified map object
 #'
 #' @details

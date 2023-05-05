@@ -30,6 +30,9 @@ osmGeocoder(
 \item{email}{an email string with a contact to provide to Nominatim. Useful if
 you are doing lots of queries}
 }
+\value{
+The modified map object
+}
 \description{
 Plugin for Leaflet that allows users to enter a place name or address to geolocate a map
 }
