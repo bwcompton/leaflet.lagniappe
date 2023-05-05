@@ -11,6 +11,9 @@
 #' @param email       an email string with a contact to provide to Nominatim. Useful if
 #'                    you are doing lots of queries
 #'
+#' @value
+#' The modified map object
+#'
 #' @details
 #' This plugin uses Open Street Maps' Nominatim geocoder to resolve an address and locate
 #' the Leaflet map. There are several arguments to fine-tune the text box. These are JavaScript
@@ -37,7 +40,7 @@
 #' addTiles() |>
 #' osmGeocoder()
 #'
-# B. Compton, 28 Apr 2023-4 May 2023
+# B. Compton, 28 Apr 2023-5 May 2023
 
 
 
