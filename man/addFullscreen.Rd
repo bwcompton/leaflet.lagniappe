@@ -4,7 +4,7 @@
 \alias{addFullscreen}
 \title{Full screen button for Leaflet}
 \usage{
-addFullscreen(map, pseudoFullscreen = "false")
+addFullscreen(map)
 }
 \arguments{
 \item{map}{a Leaflet for R map object}
@@ -21,8 +21,7 @@ and fills the screen with your map when the user clicks it.
 
 This code is an R wrapper for JavaScript package Leaflet.fullscreen, and this package
 includes the .js, .css, and .jvg files from \url{https://github.com/runette/Leaflet.fullscreen}.
-Leaflet.fullscreen is Licensed under ISC. It uses SVG icons from Font Awesome v5.15.4, licensed
-under Creative Commons Attribution 4.0.
+Leaflet.fullscreen is Licensed under ISC.
 }
 \section{Author}{
 

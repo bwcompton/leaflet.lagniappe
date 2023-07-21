@@ -13,8 +13,7 @@
 #'
 #' This code is an R wrapper for JavaScript package Leaflet.fullscreen, and this package
 #' includes the .js, .css, and .jvg files from \url{https://github.com/runette/Leaflet.fullscreen}.
-#' Leaflet.fullscreen is Licensed under ISC. It uses SVG icons from Font Awesome v5.15.4, licensed
-#' under Creative Commons Attribution 4.0.
+#' Leaflet.fullscreen is Licensed under ISC.
 #'
 #' @section Author:
 #' Bradley W. Compton <bcompton@@umass.edu>
@@ -34,7 +33,7 @@
 
 
 
-'addFullscreen' <- function(map, pseudoFullscreen = 'false') {
+'addFullscreen' <- function(map) {
 
    # Point to Full screen plugin
    addFullscreenPlugin <- htmltools::htmlDependency('Leaflet-fullscreen', '1.0.3',
