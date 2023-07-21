@@ -8,7 +8,7 @@ Author: Bradley W. Compton
 Maintainer: Bradley W. Compton <bcompton@umass.edu>
 URL: https://github.com/bwcompton/leaflet.lagniappe
 BugReports: https://github.com/bwcompton/leaflet.lagniappe/issues
-License: GPL-3
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

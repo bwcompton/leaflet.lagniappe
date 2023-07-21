@@ -25,6 +25,7 @@
 #'
 #' This code is an R wrapper for JavaScript package leaflet-control-osm-geocoder, and this package
 #' includes the .js and .css files from \url{https://github.com/k4r573n/leaflet-control-osm-geocoder}.
+#' leaflet-control-osm-geocoder is licensed under the BSD 2-Clause "Simplified" License.
 #'
 #' @section Author:
 #' Bradley W. Compton <bcompton@@umass.edu>
