@@ -6,7 +6,7 @@
 
 Additional Leaflet plugins for R that work under Shiny
 
-Leaflet for R has support for several of the many available Leaflet plugins, but implementing others in R is non-trivial. Additional plugins in this package are tested under Shiny, both locally and on shinyapps.io, so you can use these in Shiny-based web pages. I'll continue to add plugins-here as I develop them.
+Leaflet for R has support for several of the many available Leaflet plugins, but implementing others in R is non-trivial. Additional plugins in this package are tested under Shiny, both locally and on shinyapps.io, so you can use these in Shiny-based web pages. I'll continue to add plugins here as I develop them.
 
 ## Installation
 ```

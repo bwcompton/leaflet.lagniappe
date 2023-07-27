@@ -1,7 +1,7 @@
 Package: leaflet.lagniappe
 Type: Package
 Title: Open Street Map Geocoding Plugin for Leaflet
-Version: 0.0.0.9000
+Version: 1.0.0
 Description: Plugin for Leaflet that allows users to enter a place name or
     address to geolocate a map. Uses Open Street Maps' Nominatim geocoder.
 Author: Bradley W. Compton
